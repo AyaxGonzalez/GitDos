@@ -9,18 +9,24 @@
 		}
 		form{
 			float: left;
-			height: 250px;
 			padding: 10px;
 			background: red;
 			width: 100%;
 			box-sizing: border-box;
 		}
-		label,input{
+		label{
 			display: block;
 			width: 100%;
 			box-sizing: border-box;
 		}
+		input{
+			display: block;
+			width: 100%;
+			margin-bottom: 10px;
+			box-sizing: border-box;
+		}
 		.contenedor{
+			margin-top: 100px;
 			width: 100%;
 			background: blue;
 		}
@@ -35,6 +41,15 @@
 			width: 30%;
 			background: green;
 		}
+		input[type="submit"]{
+			width: 30%;
+			margin:auto;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+		}
+		input[type="password"]{
+			margin-bottom: 30px;
+		}
 	</style>
 </head>
 <body>
@@ -46,6 +61,7 @@
 				<input type="text">
 				<label>Contraseña:</label>
 				<input type="password">
+				<input type="submit">
 			</form>
 		</div>
 	</section>
