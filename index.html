@@ -2,8 +2,37 @@
 <html>
 <head>
 	<title>Inicio</title>
+	<style>
+		body{
+			padding: 0;
+			margin: 0;
+		}
+		form{
+			padding: 10px;
+			margin: auto;
+			background: red;
+			width: 30%;
+			box-sizing: border-box;
+		}
+		label,input{
+			display: block;
+			width: 100%;
+			box-sizing: border-box;
+		}
+		.contenedor{
+			width: 100%;
+			background: blue;
+		}
+	</style>
 </head>
 <body>
-	Hola me llamo Ayax
+	<section class="contenedor">
+		<form>
+			<label>Usuario:</label>
+			<input type="text">
+			<label>Contraseña:</label>
+			<input type="password">
+		</form>
+	</section>
 </body>
 </html>
