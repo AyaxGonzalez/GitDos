@@ -8,10 +8,11 @@
 			margin: 0;
 		}
 		form{
+			float: left;
+			height: 250px;
 			padding: 10px;
-			margin: auto;
 			background: red;
-			width: 30%;
+			width: 100%;
 			box-sizing: border-box;
 		}
 		label,input{
@@ -23,16 +24,30 @@
 			width: 100%;
 			background: blue;
 		}
+		img{
+			float: left;
+			width: 100%;
+			box-sizing: border-box;
+			margin-bottom: 0;
+		}
+		.login{
+			margin: auto;
+			width: 30%;
+			background: green;
+		}
 	</style>
 </head>
 <body>
 	<section class="contenedor">
-		<form>
-			<label>Usuario:</label>
-			<input type="text">
-			<label>Contraseña:</label>
-			<input type="password">
-		</form>
+		<div class="login">
+			<img src="imagen1.png">
+			<form>
+				<label>Usuario:</label>
+				<input type="text">
+				<label>Contraseña:</label>
+				<input type="password">
+			</form>
+		</div>
 	</section>
 </body>
 </html>
